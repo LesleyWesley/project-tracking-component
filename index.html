@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Project tracking intro component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,24 +15,36 @@
   </style>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
+  <div class="background-decor"></div>
 
-  New
-  Monograph Dashboard
+  <header>
+      <img src="./images/logo.svg" alt="" />
+      <nav>
+          <img src="./images/icon-hamburger.svg" alt="" />
+      </nav>
+  </header>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+  <main>
+      <section class="image-section">
+          <img src="./images/illustration-devices.svg" alt="mobile and desktop illustration" />
+      </section>
 
-  Schedule a demo
-  to see a live preview
-  
+      <section class="content-section">
+          <h1><span>new</span> monograph dashboard</h1>
+          <h2>Powerful insights into your team</h2>
+          <p>Project planning and time tracking for agile teams</p>
+
+          <div class="link-section">
+              <a href="#" class="schedule-link">Schedule a demo</a>
+              <a href="#" class="preview-link">To see a preview</a>
+          </div>
+      </section>
+  </main>
+
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Lesley</a>.
     </p>
   </footer>
 </body>
