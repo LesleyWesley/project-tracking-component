@@ -8,6 +8,10 @@
 
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Project tracking intro component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,9 +25,27 @@
 
   <header>
       <img src="./images/logo.svg" alt="" />
-      <nav>
-          <img src="./images/icon-hamburger.svg" alt="" />
-      </nav>
+
+      <div class="menu-wrap">
+          <input type="checkbox" class="toggler">
+          <div class="hamburger">
+              <div></div>
+          </div>
+
+          <div class="menu">
+              <div>
+                  <div>
+                      <ul>
+                          <li><a href="#">Product</a></li>
+                          <li><a href="#">Features</a></li>
+                          <li><a href="#">Pricing</a></li>
+                          <li><a href="#" class="login-link">Login</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+
   </header>
 
   <main>
