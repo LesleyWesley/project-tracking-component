@@ -201,6 +201,13 @@ header {
   padding-top: 2rem;
 }
 
+.menu-wrap .menu > div > div > ul > li > a:hover,
+.menu-wrap .menu > div > div > ul > li > a:active {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
 main {
   overflow: hidden;
   width: 100%;
@@ -286,4 +293,10 @@ a {
   border-radius: .25rem;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
+}
+
+.schedule-link:hover,
+.schedule-link:active {
+  cursor: pointer;
+  opacity: .75;
 }
