@@ -389,7 +389,25 @@ a {
   }
 
   .content-section {
-    width: 50%;
+    width: 60%;
     margin: 0 0 0 7rem;
+    max-width: 30rem;
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    max-width: 75%;
+  }
+
+  .link-section {
+    margin-top: 5rem;
+  }
+
+  a {
+    padding: 1rem 0;
   }
 }
