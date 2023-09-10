@@ -389,13 +389,16 @@ a {
   }
 
   .content-section {
-    width: 60%;
+    width: 55%;
     margin: 0 0 0 7rem;
     max-width: 30rem;
   }
 
   h2 {
     margin-top: 1rem;
+    width: 90%;
+    font-size: 3rem;
+    line-height: 3.5rem;
   }
 
   p {
@@ -409,5 +412,9 @@ a {
 
   a {
     padding: 1rem 0;
+  }
+
+  .schedule-link {
+    font-size: 1rem;
   }
 }
